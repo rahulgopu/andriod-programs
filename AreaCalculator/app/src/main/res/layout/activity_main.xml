@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="441dp"
+        android:layout_height="51dp"
+        android:gravity="center"
+        android:text="@string/apptitle"
+        android:textAllCaps="false"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:id="@+id/shapeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/triangleRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Triangle"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/circleRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Circle"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/ellipseRadioButton"
+            android:layout_width="448dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Ellipse"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:onClick="CalculateArea"
+        android:text="@string/areaButtonName"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/resultHint"
+        android:textSize="18sp" />
+
+</LinearLayout>

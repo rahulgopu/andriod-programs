@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="edu.niu.cs.z1839171.MAD.MainScreen">
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="+"
+        android:alpha="0.6"
+        android:background="@drawable/blue"
+        android:textSize="100dp"
+        android:textStyle="bold"
+
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/subtraction"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/addition"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:text="-"
+        android:alpha="0.6"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/blue"
+        android:textSize="150dp"/>
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/addition"
+        android:layout_below="@+id/addition"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:text="/"
+        android:alpha="0.6"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/blue"
+        android:textSize="100dp"/>
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignStart="@+id/subtraction"
+        android:layout_below="@+id/subtraction"
+        android:text="X"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:background="@drawable/blue"
+        android:textSize="100dp"/>
+    <Button
+        android:id="@+id/all"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignStart="@+id/division"
+        android:layout_below="@+id/division"
+        android:text="ALL"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/blue"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:textSize="75dp"/>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94CBF8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/chalengerButton"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/dodge_challenger"
+                android:onClick="playChallenger" />
+
+            <Button
+                android:id="@+id/astonButton"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/aston_vantage"
+                android:onClick="playAston" />
+
+            <Button
+                android:id="@+id/lamboButton"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/lambo_aventador"
+                android:onClick="playLambo" />
+
+            <Button
+                android:id="@+id/ferariButton"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ferari_812"
+                android:onClick="playFerrari" />
+
+            <Button
+                android:id="@+id/ageraButton"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/konig_agera"
+                android:onClick="playKoenigsegg" />
+
+            <Button
+                android:id="@+id/shelbyButton"
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/shelby_gt500"
+                android:onClick="playShelby" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="edu.niu.cs.z1839171.MAD.MainScreen">
+
+    <Button
+        android:id="@+id/csci240"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="CSCI240"
+        android:layout_marginRight="10dp"
+        android:alpha="0.6"
+        android:background="@drawable/blue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/csci241"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/csci240"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="CSCI241"
+        android:alpha="0.6"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/blue"
+        android:textSize="30dp"/>
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignStart="@+id/division"
+        android:layout_below="@+id/csci241"
+        android:text="Back"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/blue"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:textSize="30dp"
+        android:onClick="goBack"/>
+</RelativeLayout>

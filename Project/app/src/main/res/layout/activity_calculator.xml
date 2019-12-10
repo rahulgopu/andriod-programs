@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="edu.niu.cs.z1839171.MAD.MainScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title"
+            android:text="CSCI 240"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/quiztitle"
+            android:text="ENTER THE QUIZ SCORES"
+            android:textSize="30dp"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:id="@+id/quiz1"
+            android:hint="Enter Quiz 1 Score"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/quiztitle"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/quiz2"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/quiz1"
+            android:layout_width="wrap_content"
+            android:hint="Enter Quiz 2 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/quiz3"
+            android:layout_alignStart="@+id/quiz1"
+            android:layout_below="@+id/quiz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 3 Score"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz4"
+            android:layout_toRightOf="@id/quiz3"
+            android:layout_below="@+id/quiz2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 4 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz5"
+            android:layout_alignStart="@+id/quiz1"
+            android:layout_below="@+id/quiz4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:hint="Enter Quiz 5 Score"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz6"
+            android:layout_toRightOf="@id/quiz5"
+            android:layout_below="@+id/quiz4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 6 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz7"
+            android:layout_alignStart="@+id/quiz1"
+            android:layout_below="@+id/quiz6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 7 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz8"
+            android:layout_toRightOf="@+id/quiz7"
+            android:layout_below="@+id/quiz6"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 8 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz9"
+            android:layout_alignStart="@+id/quiz1"
+            android:layout_below="@+id/quiz8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 9 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz10"
+            android:layout_below="@+id/quiz8"
+            android:layout_toRightOf="@+id/quiz9"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 10 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz11"
+            android:layout_alignStart="@+id/quiz1"
+            android:layout_below="@+id/quiz10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 11 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/quiz12"
+
+            android:layout_below="@+id/quiz10"
+            android:layout_toRightOf="@+id/quiz11"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quiz 12 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:id="@+id/examtitle"
+            android:text="ENTER THE EXAM SCORES"
+            android:textSize="30dp"
+            android:layout_below="@+id/quiz12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:id="@+id/exam1"
+            android:hint="Enter Exam 1 Score"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/examtitle"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/exam2"
+            android:layout_alignStart="@+id/exam1"
+            android:layout_below="@+id/exam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Exam 2 Score"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/exam3"
+            android:layout_alignStart="@+id/exam2"
+            android:layout_below="@+id/exam2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Exam 3 Score"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/assignmenttitle"
+            android:text="ENTER THE ASSIGNMENT SCORES"
+            android:textSize="30dp"
+            android:layout_below="@+id/exam3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            />
+        <EditText
+            android:id="@+id/assignment1"
+            android:hint="Assignment 1 Score"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/assignmenttitle"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/assignment2"
+            android:hint="Assignment 2 Score"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/assignmenttitle"
+            android:layout_toRightOf="@+id/assignment1"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/assignment3"
+            android:layout_alignStart="@+id/assignment1"
+            android:layout_below="@+id/assignment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 3 Score"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment4"
+            android:layout_toRightOf="@id/assignment3"
+            android:layout_below="@+id/assignment2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 4 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment5"
+            android:layout_alignStart="@+id/assignment1"
+            android:layout_below="@+id/assignment4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:hint="Assignment 5 Score"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment6"
+            android:layout_toRightOf="@id/assignment5"
+            android:layout_below="@+id/assignment4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 6 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment7"
+            android:layout_alignStart="@+id/assignment1"
+            android:layout_below="@+id/assignment6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 7 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment8"
+            android:layout_toRightOf="@+id/assignment7"
+            android:layout_below="@+id/assignment6"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 8 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment9"
+            android:layout_alignStart="@+id/assignment1"
+            android:layout_below="@+id/assignment8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 9 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+        <EditText
+            android:id="@+id/assignment10"
+            android:layout_below="@+id/assignment8"
+            android:layout_toRightOf="@+id/assignment9"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Assignment 10 Score"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:inputType="numberDecimal"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/quizSubmitButton"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/assignment10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/green"
+            android:textStyle="bold"
+            android:text="Submit"
+            android:onClick="calculate"
+            android:textColor="#ffffff"
+            />
+    </RelativeLayout>
+
+
+
+</ScrollView>

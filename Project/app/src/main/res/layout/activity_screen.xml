@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="edu.niu.cs.z1839171.MAD.MainScreen">
+
+    <Button
+        android:id="@+id/mathTutorButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="Math Tutor"
+        android:alpha="0.6"
+        android:background="@drawable/blue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/madLibs"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/addition"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        android:text="MAD LIBS"
+        android:alpha="0.6"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/blue"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/gradeCalculator"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/mathTutorButton"
+        android:layout_below="@+id/mathTutorButton"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:text="Grade Calculator"
+        android:alpha="0.6"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/blue"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/csci240quizzes"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_alignStart="@+id/madLibs"
+        android:layout_below="@+id/madLibs"
+        android:text="CSCI 240 QUIZZES"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:background="@drawable/blue"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/rockPaperScissorsButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignStart="@+id/gradeCalculator"
+        android:layout_below="@+id/gradeCalculator"
+        android:text="ROCK PAPER SCISSORS"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/blue"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:alpha="0.6"
+        android:textSize="30dp"/>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DatabaseAndMenus</string>
+    <string name="action_settings">Settings</string>
+    <string name="addString" translatable="false">Add</string>
+    <string name="deleteString" translatable="false">Delete</string>
+    <string name="updateString">Update</string>
+    <string name="priceString" translatable="false">Price:</string>
+    <string name="nameString" translatable="false">Name:</string>
+    <string name="backString">Back</string>
+</resources>

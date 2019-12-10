@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SplashAndAudio</string>
+    <string name="titleString">Sounds of Hawaii</string>
+    <string name="playUkuleleText">Play The Ukulele</string>
+    <string name="pauseUkuleleText">Pause The Ukulele</string>
+    <string name="playDrumsText">Play The Drums</string>
+    <string name="pauseDrumsText">Pause The Ukulele</string>
+</resources>

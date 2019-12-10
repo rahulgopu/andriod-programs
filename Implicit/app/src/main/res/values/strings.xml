@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Implicit</string>
+    <string name="openBrowser">OPEN A BROWSER</string>
+    <string name="dialNumber">DIAL A NUMBER</string>
+    <string name="takePicture">TAKE A PICTURE</string>
+</resources>

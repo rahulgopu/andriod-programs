@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Area_Calculator</string>
+    <string name="apptitle">Find the area of :</string>
+    <string name="areaButtonName">DO CALCULATION</string>
+
+    <string name="Triangle">triangle</string>
+    <string name="TriangleTitle">Area of Triangle :</string>
+    <string name="Base">Base :</string>
+    <string name="Height">Height :</string>
+
+    <string name="Circle">circle</string>
+    <string name="CircleTitle">Area of Circle</string>
+    <string name="Radius">Radius :</string>
+
+    <string name="Ellipse">ellipse</string>
+    <string name="EllipseTitle">Area of Ellipse :</string>
+    <string name="Major">Length of semi-major axis :</string>
+    <string name="Minor">Length of semi-minor axis :</string>
+
+    <string name="resultHint">Calculated result will appear here.</string>
+</resources>

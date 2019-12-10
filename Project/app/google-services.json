@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "141421525370",
+    "firebase_url": "https://project-33fa7.firebaseio.com",
+    "project_id": "project-33fa7",
+    "storage_bucket": "project-33fa7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141421525370:android:cb7c8bf9c477a014",
+        "android_client_info": {
+          "package_name": "edu.niu.cs.z1829024.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141421525370-8fggjlf0rg6rt2juig4rl7plcko6nq23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByLMj2E5H8vGOOkTNXOXFguyQUzP_uvI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

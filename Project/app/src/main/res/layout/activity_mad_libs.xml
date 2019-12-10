@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="edu.niu.cs.z1839171.MAD.MainScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title"
+            android:text="MAD LIBS"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/storytitle"
+            android:text="Select a story"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/story1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/storytitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/green"
+            android:textStyle="bold"
+            android:text="STORY 1"
+            android:textColor="#ffffff"
+            />
+        <Button
+            android:id="@+id/story2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/story1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/green"
+            android:textStyle="bold"
+            android:text="STORY 2"
+            android:textColor="#ffffff"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

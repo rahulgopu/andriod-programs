@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="edu.niu.cs.z1839171.MAD.MainScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/title"
+            android:text="In the Jungle"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/adjective1"
+            android:hint="Enter an Adjective"
+            android:layout_marginLeft="100dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/adjective4"
+            android:hint="Enter an Adjective"
+            android:layout_marginLeft="100dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/adjective1"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/noun1"
+
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/adjective4"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Noun"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/verb1"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/noun1"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Verb("
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/adjective2"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/verb1"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Adjective"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/noun2"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/adjective2"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Noun"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/noun3"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/noun2"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Noun"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/adjective5"
+            android:hint="Enter an Adjective"
+            android:layout_marginLeft="100dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/noun3"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/adjective3"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/adjective5"
+            android:layout_width="wrap_content"
+            android:hint="Enter an Adjective"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/noun4"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/adjective3"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Noun"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/verb2"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/noun4"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Verb"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/verb3"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/verb2"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Verb"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/verb4"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/verb3"
+            android:layout_width="wrap_content"
+            android:hint="Enter a Verb"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/adjective6"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/verb4"
+            android:layout_width="wrap_content"
+            android:hint="Enter an Adjective"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/adjective7"
+            android:layout_marginLeft="100dp"
+            android:layout_below="@+id/adjective6"
+            android:layout_width="wrap_content"
+            android:hint="Enter an Adjective"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            />
+
+
+
+        <Button
+            android:id="@+id/storyButton1"
+            android:layout_marginLeft="100dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/adjective7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/green"
+            android:textStyle="bold"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            />
+
+        <TextView
+            android:id="@+id/display"
+            android:text="Story"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/storyButton1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:gravity="center_horizontal"/>
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

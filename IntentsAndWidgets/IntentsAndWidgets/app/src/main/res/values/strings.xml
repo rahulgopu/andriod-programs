@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">IntentsAndWidgets</string>
+    <string name="titlename">Chocolate Desserts</string>
+    <string name="dish">Choose a dish:</string>
+    <string-array name="spinnerArray">
+        <item><b><i>Chocolate Cake</i></b></item>
+        <item><b><i>Chocolate Chip Cookie</i></b></item>
+        <item><b><i>Chocolate Cream Pie</i></b></item>
+        <item><b><i>Chocolate Brownie</i></b></item>
+        <item><b><i>Chocolate Ice Cream</i></b></item>
+    </string-array>
+    <string name="recipeButton">Go To Recipe</string>
+    <string name="goBack">Go Back To Choices</string>
+    <string-array name="receipeText">
+
+        <item>\nIngredients\n\n1) butter and flour for coating and dusting the cake pan\n2) 3 cups all-purpose flour\n3) 3 cups granulated sugar\n4) 1 1/2 cups unsweetened cocoa powder
+                \n5) 1 tablespoon baking soda\n6) 1 1/2 teaspoons baking powder\n7) 1 1/2 teaspoons salt\n8) 4 large eggs\n9) 1 1/2 cups buttermilk\n10) 1 1/2 cups warm water
+                \n11) 1/2 cup vegetable oil\n12) 2 teaspoons vanilla extract\n\nInstructions\n\n1) Preheat oven to 350 degrees. Butter three 9-inch cake rounds. Dust with flour \nand tap out the excess.
+                \n2) Mix together flour, sugar, cocoa, baking soda, baking powder, and salt in a \nstand mixer using a low speed until combined.
+                \n3) Add eggs, buttermilk, warm water, oil, and vanilla. Beat on a medium speed \nuntil smooth. This should take just a couple of minutes.
+                \n4) Divide batter among the three pans. I found that it took just over 3 cups of the batter to divide it evenly.
+                \n5) Bake for 30-35 minutes until a toothpick inserted into the center comes out \nclean.
+                \n6) Cool on wire racks for 15 minutes and then turn out the cakes onto the racks \nand allow to cool completely.
+                \n7) Frost with your favorite frosting and enjoy!</item>
+        <item>\nIngredients\n\n1) 1 cup salted butter* softened\n2) 1 cup white (granulated) sugar\n3) 1 cup light brown sugar packed\n4) 2 tsp pure vanilla extract
+                \n5) 2 large eggs\n6) 3 cups all-purpose flour\n7) 1 tsp baking soda\n8) ½ tsp baking powder\n9) 1 tsp sea salt\n10) 2 cups chocolate chips (or chunks, or chopped chocolate)
+                \n\nInstructions\n\n1) Preheat oven to 375 degrees F. Line a baking pan with parchment paper and set \naside.\n2) In a separate bowl mix flour, baking soda, salt, baking powder. Set aside.
+                \n3) Cream together butter and sugars until combined.
+                \n4) Beat in eggs and vanilla until fluffy.
+                \n5) Mix in the dry ingredients until combined.
+                \n6) Add 12 oz package of chocolate chips and mix well.
+                \n7) Roll 2-3 TBS (depending on how large you like your cookies) of dough at a \ntime into balls and place them evenly spaced on your prepared cookie sheets. \n(alternately, use a small cookie scoop to make your cookies)!
+                \n8) Bake in preheated oven for approximately 8-10 minutes. Take them out when \nthey are just BARELY starting to turn brown.
+                \n9) Let them sit on the baking pan for 2 minutes before removing to cooling rack.</item>
+        <item>\nIngredients
+                \n\n1) 1 prepared (baked) 9" pie crust\n2) 1 ½ cups granulated sugar (300g)\n3) 1/4 cup + 1 Tbsp cornstarch (40g)\n4) 1/4 tsp salt\n5) 5 large egg yolks
+                \n6) 2 2/3 cup whole milk (630ml)\n7) 1/2 cup heavy cream (118ml)
+                \n8) 6 oz dark chocolate finely chopped (170g)
+                \n9) 4 Tablespoons butter cut into pieces (56.5)
+                \n10) 1 ½ teaspoon vanilla extract
+                \n
+                \nInstructions
+                \n
+                \n1) In a medium saucepan, whisk together sugar, cornstarch and salt.
+                \n2) Add egg yolks, milk, and heavy cream and transfer to stovetop over medium-\nhigh heat and whisk ingredients together.
+                \n3) Whisk ingredients frequently on medium heat until ingredients begin to \nthicken (this will take several minutes).
+                \n4) Once mixture has thickened* (it should be like a pudding consistency) whisk constantly, the mixture will come to a boil and continue to whisk for 60 seconds before removing from heat (still whisking constantly).
+                \n5) Immediately add chocolate, butter, and vanilla extract.
+                \n6) Whisk until ingredients are smooth and chocolate and butter are completely \nmelted.
+                \n7) Pour your pie filling through a fine mesh sieve into a medium-sized heatproof \nbowl.\n8) Allow to cool for 15 minutes, stirring occasionally to prevent skin from \nforming.
+                \n8) Pour filling over prepared pie crust and cover surface with clear wrap, making sure that the clear wrap is pressed against the surface of the chocolate to prevent a skin from forming.
+                \n9) Refrigerate at least 6 hours to allow chocolate pie to firm up and set.</item>
+            <item>\nIngredients
+\n
+\n1) 1/2 cup butter1 cup white sugar
+\n2) 2 eggs and 1 teaspoon vanilla extract
+\n3) 1/3 cup unsweetened cocoa powder
+\n4) 1/2 cup all purpose flour
+\n5) 1/4 teaspoon salt
+\n6) 1/4 teaspoon baking powderFrosting and 3 tablespoons butter softened
+\n7) 3 tablespoons unsweetened cocoa powder
+\n8) 1 tablespoon honey
+\n9) 1 teaspoon vanilla extract
+\n10) 1 cup confectioners sugar
+\n
+\nDirections
+\n
+\n1) Preheat oven to 350 degrees F. Grease and flour an 8 inch square pan.
+\n2) In a large saucepan  melt 1/2 cup butter. Remove from heat  and stir in sugar  eggs  and 1 teaspoon vanilla. Beat in 1/3 cup cocoa  1/2 cup flour  salt  and baking powder. Spread batter into prepared pan.
+\n3) Bake in preheated oven for 25 to 30 minutes. Do not overcook.
+\n4) To Make Frosting, Combine 3 tablespoons softened butter  3 tablespoons cocoa  honey, 1 teaspoon vanilla extract  and 1 cup confectioners sugar. Stir until smooth. Frost brownies while they are still warm.
+            </item>
+        <item>\nINGREDIENTS
+\n
+\n1) 4 ounces good-quality dark chocolate  coarsely chopped
+\n2) 2 ounces good-quality milk chocolate  coarsely chopped
+\n3) 2 cups whole milk
+\n4) 1 cup heavy cream
+\n5) 3/4 cup granulated sugar
+\n6) 1/4 cup sweetened condensed milk
+\n7) 3 tablespoons Dutch-process cocoa powder
+\n
+\nINSTRUCTIONS
+\n
+\n1) Chill the ice cream bowl  if needed. If your ice cream machine has a bowl that needs to be frozen before churning  put it in the freezer the night before you plan to make ice cream. If you forget  you can make the base and refrigerate it overnight while the bowl is freezing  and churn the ice cream the next day. Fill a large bowl halfway with ice and water set aside. Fit a fine-mesh strainer over a medium bowl set aside. Straining is optional but makes for a super-smooth finished ice cream.
+\n
+\n2) Melt the chocolates. Place the milk and dark chocolates in a medium heatproof metal or glass bowl. Bring a large skillet of water to a boil. Turn off the heat and set the bowl in the water. Leave the chocolate to melt gently while you prepare the dairy.
+\n
+\n3) Heat the dairy  cocoa  sugar  and sweetened condensed milk. Place the milk  cream  sugar  condensed milk  and cocoa powder in a large saucepan. Bring to a simmer over medium-high heat  whisking occasionally  until smooth. Simmer for 2 minutes  then remove from the heat.
+\n
+\n4) Combine the chocolate and dairy mixture. Pour a ladleful of the hot dairy mixture into the melted chocolate and whisk until thoroughly combined. Add another ladleful and repeat whisking until you have added about half of the dairy mixture. Add the remaining dairy mixture and whisk to combine.
+\n
+\n5) Strain the base  if desired. Strain the ice cream base through the strainer if desired. Set the bowl of ice cream base into the ice water bath  but make sure no water gets into the base.
+\n
+\n6) Chill the ice cream base completely. Leave the ice cream base on the ice water bath  stirring occasionally  until completely chilled  about 20 minutes. Alternatively  skip the ice water bath. After the base cools slightly  cover and refrigerate until chilled for up to 1 day.
+\n
+\n7) Churn the ice cream base. Transfer the ice cream base to the bowl of the ice cream machine. Churn until the base has thickened to a consistency somewhere between a very thick milkshake and soft-serve ice cream. In most ice cream makers  20 to 35 minutes  check the instructions for your particular machine.
+\n
+\n8) Freeze until hardened  about 4 hours. Transfer the thickened ice cream to a freezer container. Press a piece of wax paper  parchment paper  or plastic wrap against the surface of the ice cream to prevent ice crystals from forming. Freeze until solid  at least 4 hours.
+        </item>
+    </string-array>
+</resources>

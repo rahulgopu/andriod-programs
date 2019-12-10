@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="hello_str">Hello World!</string>
+    <string name="bye_str">Bye !!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">BYE !</string>
+</resources>
